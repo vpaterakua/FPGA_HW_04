@@ -1,0 +1,7 @@
+create libxil.a
+addlib D:/Learn/robotdreams/Homework_004/MicroBlaze/microblaze/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/tmrctr/src/libtmrctr.a
+addlib D:/Learn/robotdreams/Homework_004/MicroBlaze/microblaze/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/intc/src/libintc.a
+addlib D:/Learn/robotdreams/Homework_004/MicroBlaze/microblaze/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/gpio/src/libgpio.a
+addlib D:/Learn/robotdreams/Homework_004/MicroBlaze/microblaze/microblaze_0/standalone_microblaze_0/bsp/libsrc/build_configs/gen_bsp/libsrc/bram/src/libbram.a
+save
+end

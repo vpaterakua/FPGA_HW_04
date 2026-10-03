@@ -1,0 +1,4 @@
+domain_path: D:/Learn/robotdreams/Homework_004/Zynq_PS/platform/zynq_fsbl/zynq_fsbl_bsp
+app_src_dir: D:\AMDdesign\2026.1\Vitis\data\embeddedsw\lib\sw_apps\zynq_fsbl
+template: zynq_fsbl
+lang: c

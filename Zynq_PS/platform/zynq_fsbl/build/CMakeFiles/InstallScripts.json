@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/Learn/robotdreams/Homework_004/Zynq_PS/platform/zynq_fsbl/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

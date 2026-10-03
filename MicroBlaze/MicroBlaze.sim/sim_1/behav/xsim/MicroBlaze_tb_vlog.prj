@@ -1,0 +1,21 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../../../../../AMDdesign/2026.1/Vivado/data/rsb/busdef" --include "../../../../MicroBlaze.gen/sources_1/bd/MicroBlaze/ipshared/ee6d" --include "../../../../MicroBlaze.gen/sources_1/bd/MicroBlaze/ipshared/f0b6/hdl/verilog" --include "../../../../MicroBlaze.gen/sources_1/bd/MicroBlaze/ipshared/00fe/hdl/verilog" --include "../../../../MicroBlaze.gen/sources_1/bd/MicroBlaze/ipshared/ec67/hdl" --include "D:/AMDdesign/2026.1/Vivado/data/xilinx_vip/include" \
+"../../../../MicroBlaze.gen/sources_1/bd/MicroBlaze/ip/MicroBlaze_clk_wiz_0_0/MicroBlaze_clk_wiz_0_0_clk_wiz.v" \
+"../../../../MicroBlaze.gen/sources_1/bd/MicroBlaze/ip/MicroBlaze_clk_wiz_0_0/MicroBlaze_clk_wiz_0_0.v" \
+"../../../../MicroBlaze.gen/sources_1/bd/MicroBlaze/ip/MicroBlaze_lmb_bram_0/sim/MicroBlaze_lmb_bram_0.v" \
+"../../../../MicroBlaze.gen/sources_1/bd/MicroBlaze/ip/MicroBlaze_microblaze_0_axi_periph_0/bd_0/sim/bd_3fc3.v" \
+
+sv xil_defaultlib  --include "../../../../../../../../AMDdesign/2026.1/Vivado/data/rsb/busdef" --include "../../../../MicroBlaze.gen/sources_1/bd/MicroBlaze/ipshared/ee6d" --include "../../../../MicroBlaze.gen/sources_1/bd/MicroBlaze/ipshared/f0b6/hdl/verilog" --include "../../../../MicroBlaze.gen/sources_1/bd/MicroBlaze/ipshared/00fe/hdl/verilog" --include "../../../../MicroBlaze.gen/sources_1/bd/MicroBlaze/ipshared/ec67/hdl" --include "D:/AMDdesign/2026.1/Vivado/data/xilinx_vip/include" \
+"../../../../MicroBlaze.gen/sources_1/bd/MicroBlaze/ip/MicroBlaze_microblaze_0_axi_periph_0/bd_0/ip/ip_0/sim/bd_3fc3_sc_ul_0.sv" \
+"../../../../MicroBlaze.gen/sources_1/bd/MicroBlaze/ip/MicroBlaze_microblaze_0_axi_periph_0/sim/MicroBlaze_microblaze_0_axi_periph_0.sv" \
+
+verilog xil_defaultlib  --include "../../../../../../../../AMDdesign/2026.1/Vivado/data/rsb/busdef" --include "../../../../MicroBlaze.gen/sources_1/bd/MicroBlaze/ipshared/ee6d" --include "../../../../MicroBlaze.gen/sources_1/bd/MicroBlaze/ipshared/f0b6/hdl/verilog" --include "../../../../MicroBlaze.gen/sources_1/bd/MicroBlaze/ipshared/00fe/hdl/verilog" --include "../../../../MicroBlaze.gen/sources_1/bd/MicroBlaze/ipshared/ec67/hdl" --include "D:/AMDdesign/2026.1/Vivado/data/xilinx_vip/include" \
+"../../../../MicroBlaze.gen/sources_1/bd/MicroBlaze/sim/MicroBlaze.v" \
+"../../../../MicroBlaze.gen/sources_1/bd/MicroBlaze/hdl/MicroBlaze_wrapper.v" \
+"../../../../MicroBlaze.srcs/sim_1/new/MicroBlaze_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
