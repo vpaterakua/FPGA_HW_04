@@ -1,7 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learn/robotdreams/Homework_004/MicroBlaze/MicroBlaze.gen/sources_1/bd/MicroBlaze/sim/MicroBlaze.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module MicroBlaze
-INFO: [VRFC 10-311] analyzing module microblaze_0_local_memory_imp_1D6OQ4J
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learn/robotdreams/Homework_004/MicroBlaze/MicroBlaze.gen/sources_1/bd/MicroBlaze/hdl/MicroBlaze_wrapper.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module MicroBlaze_wrapper
-INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Learn/robotdreams/Homework_004/MicroBlaze/MicroBlaze.srcs/sim_1/new/MicroBlaze_tb.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module MicroBlaze_tb
